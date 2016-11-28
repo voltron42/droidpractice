@@ -125,11 +125,13 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="3"
+			android:onClick="appendThree"
 		/>
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="-"
+			android:onClick="subtract"
 		/>
 	</LinearLayout>
 	<LinearLayout
@@ -141,21 +143,25 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="+/-"
+			android:onClick="toggleSign"
 		/>
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="0"
+			android:onClick="appendZero"
 		/>
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="."
+			android:onClick="appendDecimal"
 		/>
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="+"
+			android:onClick="add"
 		/>
 	</LinearLayout>
 </LinearLayout>
